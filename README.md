@@ -106,7 +106,7 @@ Gitconomy Research的LOGO并非仅仅只是一个平面设计作品，它是社�
 
 本项目**源代码**采用 [MIT License](https://opensource.org/licenses/MIT) 进行许可，允许在满足许可证条款的前提下，自由地使用、复制、修改、合并、发布、分发、再许可和/或销售软件的副本。
 
-**所有研究成果**（包括但不限于论文、数据、图表、模型、方法论描述等）默认使用 [知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议 (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 进行许可。<br>
+**所有研究成果**（包括但不限于论文、数据、图表、模型、方法论描述等）默认使用 [知识共享署名-相同方式共享 4.0 国际许可协议 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.en) 进行许可。<br>
 
 这意味着您可以：
 

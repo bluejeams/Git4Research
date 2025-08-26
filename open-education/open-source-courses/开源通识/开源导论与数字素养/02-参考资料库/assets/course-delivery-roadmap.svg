@@ -1,0 +1,100 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg" font-family="Microsoft YaHei, Segoe UI, sans-serif">
+    <defs>
+        <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="3" dy="5" stdDeviation="5" flood-color="#000000" flood-opacity="0.1"/>
+        </filter>
+        <style>
+            .title-main { font-size: 28px; font-weight: bold; text-anchor: middle; fill: #2C3E50; }
+            .subtitle { font-size: 16px; text-anchor: middle; fill: #5D6D7E; }
+            .phase-title { font-size: 22px; font-weight: bold; text-anchor: middle; }
+            .week-card { filter: url(#shadow); }
+            .week-title { font-size: 18px; font-weight: bold; }
+            .week-goal { font-size: 14px; font-style: italic; }
+            .week-task { font-size: 13px; }
+            .timeline-path { fill: none; stroke: #D5DBDB; stroke-width: 8; stroke-linecap: round; }
+            .timeline-dot { stroke: white; stroke-width: 4; }
+            .footer-text { font-size: 12px; fill: #7f8c8d; text-anchor: middle; }
+        </style>
+    </defs>
+
+    <rect x="0" y="100" width="550" height="420" fill="#F4F9FF" />
+    <rect x="550" y="100" width="375" height="420" fill="#F6FFF8" />
+    <rect x="925" y="100" width="275" height="420" fill="#FFFBF2" />
+
+    <text x="600" y="50" class="title-main"> “3-2-1” 教学路线图</text>
+    <text x="600" y="80" class="subtitle">3周打地基 · 2周深体验 · 1周出成果</text>
+
+    <path class="timeline-path" d="M 150 300 C 225 300, 225 450, 300 450 S 375 300, 450 300 S 550 450, 650 450 S 725 300, 800 300 S 900 450, 1000 450" />
+
+    <text x="275" y="150" class="phase-title" style="fill: #3498DB;">第一阶段 (3周)：打地基</text>
+    <text x="737.5" y="150" class="phase-title" style="fill: #27AE60;">第二阶段 (2周)：深体验</text>
+    <text x="1062.5" y="150" class="phase-title" style="fill: #F39C12;">第三阶段 (1周)：出成果</text>
+
+    <g transform="translate(60, 330)">
+        <circle cx="90" cy="-30" r="15" fill="#3498DB" class="timeline-dot" />
+        <rect x="0" y="0" width="180" height="150" rx="10" fill="white" class="week-card" />
+        <text x="20" y="30" class="week-title">Week 1: Git入门</text>
+        <text x="20" y="55" class="week-goal">目标：独立版本控制</text>
+        <text class="week-task">
+            <tspan x="20" dy="85">• 掌握 add, commit, push</tspan>
+            <tspan x="20" dy="1.4em">• 本地仓库提交与推送</tspan>
+        </text>
+    </g>
+
+    <g transform="translate(210, 170)">
+        <circle cx="90" cy="280" r="15" fill="#3498DB" class="timeline-dot" />
+        <rect x="0" y="0" width="180" height="150" rx="10" fill="white" class="week-card" />
+        <text x="20" y="30" class="week-title">Week 2: 平台协作</text>
+        <text x="20" y="55" class="week-goal">目标：学会团队协作</text>
+        <text class="week-task">
+            <tspan x="20" dy="85">• 理解 Fork, PR, Issue</tspan>
+            <tspan x="20" dy="1.4em">• 提交首个Pull Request</tspan>
+        </text>
+    </g>
+
+    <g transform="translate(360, 330)">
+        <circle cx="90" cy="-30" r="15" fill="#3498DB" class="timeline-dot" />
+        <rect x="0" y="0" width="180" height="150" rx="10" fill="white" class="week-card" />
+        <text x="20" y="30" class="week-title">Week 3: AI平台初探</text>
+        <text x="20" y="55" class="week-goal">目标：体验前沿工具</text>
+        <text class="week-task">
+            <tspan x="20" dy="85">• 了解ModelScope/HF</tspan>
+            <tspan x="20" dy="1.4em">• 在线运行一个AI模型</tspan>
+        </text>
+    </g>
+
+    <g transform="translate(560, 170)">
+        <circle cx="90" cy="280" r="15" fill="#27AE60" class="timeline-dot" />
+        <rect x="0" y="0" width="180" height="150" rx="10" fill="white" class="week-card" />
+        <text x="20" y="30" class="week-title">Week 4: 寻找目标</text>
+        <text x="20" y="55" class="week-goal">目标：融入真实社区</text>
+        <text class="week-task">
+            <tspan x="20" dy="85">• 查找good-first-issue</tspan>
+            <tspan x="20" dy="1.4em">• 阅读项目贡献指南</tspan>
+        </text>
+    </g>
+
+    <g transform="translate(710, 330)">
+        <circle cx="90" cy="-30" r="15" fill="#27AE60" class="timeline-dot" />
+        <rect x="0" y="0" width="180" height="150" rx="10" fill="white" class="week-card" />
+        <text x="20" y="30" class="week-title">Week 5: 首次贡献</text>
+        <text x="20" y="55" class="week-goal">目标：完成“微贡献”</text>
+        <text class="week-task">
+            <tspan x="20" dy="85">• “微贡献”工作坊实践</tspan>
+            <tspan x="20" dy="1.4em">• 提交一次真实PR</tspan>
+        </text>
+    </g>
+
+    <g transform="translate(910, 170)">
+        <circle cx="90" cy="280" r="15" fill="#F39C12" class="timeline-dot" />
+        <rect x="0" y="0" width="180" height="150" rx="10" fill="white" class="week-card" />
+        <text x="20" y="30" class="week-title">Week 6: 总结与启动</text>
+        <text x="20" y="55" class="week-goal">目标：反思并规划</text>
+        <text class="week-task">
+            <tspan x="20" dy="85">• 撰写“微贡献”反思</tspan>
+            <tspan x="20" dy="1.4em">• 期末团队项目启动</tspan>
+        </text>
+    </g>
+
+    <text x="600" y="580" class="footer-text">本作品采用 CC-BY-SA 4.0 国际许可协议进行许可，© 2025 Gitconomy Research社区</text>
+</svg>
